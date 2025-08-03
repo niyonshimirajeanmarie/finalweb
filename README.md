@@ -153,7 +153,8 @@ This project helped me understand how to securely manage user data, build intera
 - **✍️ Sign Up Form**
 
 ---
-## thank  you for visiting  this reposiroty  🤩 !!
+## thank  you for visiting  this repository  🤩 !!
 ---
+
 
 
