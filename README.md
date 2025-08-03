@@ -1,8 +1,4 @@
-# JM Management System – Project Documentation
-
-**Name:** Niyonshimira Jeanmarie  
-**Registration Number (ID):** 27197  
-**Course:** Web Design (Final Project)  
+# JM Management System – Project Documentation 
 **Project Title:** JM Management System  
 **Department:** Software Engineering  
 **Course Code:** INSY 8314  
@@ -156,6 +152,7 @@ This project helped me understand how to securely manage user data, build intera
 ---
 ## thank  you for visiting  this repository  🤩 !!
 ---
+
 
 
 
