@@ -1,59 +1,156 @@
-# JM System - Profile Management Web Application
+# JM Management System – Project Documentation
 
-## Project Overview
-
-JM System is a web application built with **HTML**, **CSS**, and **PHP**. It allows users to:
-
-- Sign up by entering their full name, email, username, and password.
-- View their profile after signing up.
-- Update or delete their profile information.
-
-The application uses a **semantic and responsive layout** with HTML5 elements like `header`, `nav`, `main`, `section`, `article`, `aside`, and `footer` to make the website easy to use and accessible to everyone.
+**Name:** Niyonshimira Jeanmarie  
+**Registration Number (ID):** 27197  
+**Course:** Web Design (Final Project)  
+**Project Title:** JM Management System  
+**Department:** Software Engineering  
+**Course Code:** INSY 8314  
+**Lecturer:** Eric Byiringiro
 
 ---
 
-## Features
+## 📝 Project Introduction
 
-### Homepage
-- Displays the purpose of the system.
-- Shows the main features.
-- Contains navigation links to other pages.
-- Shows useful tips in the aside section.
-- Includes images such as a logo/banner and an illustration about user registration.
+The JM Management System is a web-based application built for the INSY8314 Web Design course. It allows users to securely manage personal profile data through an intuitive interface.
 
-### Sign-Up Page
-- Users can fill a form to sign up.
-- The form asks for full name, email, username, password, and password confirmation.
-- Form data is sent to a PHP script for validation and storage in a MySQL database.
-- The design includes a side image to make the page look modern and friendly.
-
-### Profile Page
-- Displays the user's full profile information using semantic HTML tags.
-- Allows users to update or delete their profile.
-- Shows a profile-related image at the top.
-- The interface is clean and adjusts well to different screen sizes using CSS.
+- **Title:** JM Profile Management System  
+- **Case Study:** Designed for individuals or organizations to manage user profiles safely.  
+- **Purpose:** Securely handle user credentials and personal data.  
+- **Technologies Used:**  
+  - **Frontend:** HTML5, CSS3, JavaScript  
+  - **Backend:** PHP  
+  - **Database:** MySQL
 
 ---
 
-## Technologies Used
+## ❗ Problem Statement
 
-- **HTML5** for page structure and semantic layout.
-- **CSS3** for styling and responsive design.
-- **PHP** for backend processing, form handling, and database communication.
-- **MySQL** for storing user information securely.
-- **Images** used throughout to improve user experience and visual appeal.
+Users often forget credentials and lack a secure platform to manage them. This system solves that by enabling:
 
----
+- Secure registration  
+- Profile updates and deletion  
+- Credential storage  
 
-## How to Run
-
-1. Install a local server environment like **XAMPP** or **WAMP**.
-2. Create a MySQL database named `assignment2`.
-3. Import the database structure (users table) provided in the project.
-4. Place the project folder in the server's root directory (`htdocs` for XAMPP).
-5. Open the browser and navigate to `http://localhost/webassign2/index.html` to start using the system.
+**Users:** Individuals or company employees needing secure profile management.
 
 ---
 
-## Folder Structure
+## ⚙️ System Requirements
+
+| Requirement          | Description                             |
+|----------------------|-----------------------------------------|
+| Code Editor          | Visual Studio Code (VS Code)            |
+| Local Server         | XAMPP (Apache & MySQL)                  |
+| Backend Language     | PHP (version 7.4 or higher)             |
+| Database             | MySQL                                   |
+| Web Browser          | Chrome, Firefox, Edge, or Safari        |
+| Operating System     | Windows 10+, macOS, or Linux            |
+| RAM                  | Minimum 4 GB                            |
+| Storage              | At least 1 GB free                      |
+| Internet             | Only if using online APIs/resources     |
+
+---
+
+## 🔧 System Design
+
+### User Flow:
+1. Visit Home Page  
+2. Navigate to Sign Up or Login  
+3. Access and manage Profile  
+4. Use system features  
+
+### Pages:
+- Home  
+- Signup  
+- Login  
+- Profile  
+- Core Features  
+- Tips
+
+---
+
+## 🛠️ Implementation
+
+- **HTML/CSS/JavaScript:** Interface, layout, interactivity  
+- **PHP:** Backend processing for login, registration, and profile management  
+- **MySQL:** Secure data storage and retrieval
+
+---
+
+## 🗃️ Database Design
+
+### Users Table
+
+| Field         | Description                             |
+|---------------|-----------------------------------------|
+| id            | Auto-incremented unique identifier      |
+| fullname      | User’s full name                        |
+| email         | User’s email                            |
+| username      | Chosen username                         |
+| password      | Hashed password                         |
+| created_at    | Timestamp of account creation           |
+
+### CRUD Operations:
+- **Create**: Register new user  
+- **Read**: View user profile  
+- **Update**: Edit profile information  
+- **Delete**: Remove user account  
+
+---
+
+## ✅ Testing
+
+### Manual Testing Performed:
+- Validated form fields  
+- Logged in/out with various accounts  
+- Checked database integrity
+
+### Bugs Fixed:
+- Login errors due to input sanitization  
+- Incorrect SQL queries fixed  
+- Improved validation and error handling
+
+---
+
+## ⚠️ Challenges Faced
+
+- Initial database connection setup issues  
+- Responsive design on smaller screens  
+- Password hashing with validation
+
+### Solutions:
+- Used forums/tutorials for DB setup  
+- Applied Flexbox/Grid for layout  
+- Added server-side validation
+
+---
+
+## 🔮 Future Improvements
+
+- Add login system  
+- Include profile picture upload  
+- Role-based access control (admin vs. user)  
+- Build a mobile-friendly PWA (Progressive Web App)
+
+---
+
+## ✅ Conclusion
+
+This project helped me understand how to securely manage user data, build interactive UIs, and connect the frontend with backend systems.
+
+---
+
+## 📸 Screenshots
+
+
+
+- **✅ Account Creation**  
+- **🗃️ Database Overview**  
+- **🗑️ Profile Deletion**  
+- **🔐 Login Form**  
+- **👤 User Dashboard**  
+- **✍️ Sign Up Form**
+
+---
 
